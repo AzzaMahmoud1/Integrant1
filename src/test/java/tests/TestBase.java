@@ -4,6 +4,7 @@ import org.apache.log4j.Logger;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
@@ -16,8 +17,9 @@ public class TestBase {
 		logger = Logger.getLogger("Open browser ");
 		String URL = "https://subscribe.stctv.com/sa-en";
 		try {
-			WebDriverManager.chromedriver().setup();
-			driver = new ChromeDriver();
+			WebDriverManager.edgedriver().setup();
+
+			driver = new EdgeDriver();
 	
 			}
 		catch (Exception ex) {

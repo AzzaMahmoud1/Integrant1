@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-18T02:43:21 EET" name="Default suite" finished-at="2024-09-18T02:43:25 EET" duration-ms="3422">
+    <groups>
+    </groups>
+    <test started-at="2024-09-18T02:43:21 EET" name="Default test" finished-at="2024-09-18T02:43:25 EET" duration-ms="3422">
+      <class name="tests.RestAssuredTest">
+        <test-method signature="testAddNewDevice()[pri:0, instance:tests.RestAssuredTest@5c48c0c0]" started-at="2024-09-18T02:43:22 EET" name="testAddNewDevice" finished-at="2024-09-18T02:43:25 EET" duration-ms="3263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddNewDevice -->
+      </class> <!-- tests.RestAssuredTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
